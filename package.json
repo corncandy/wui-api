@@ -1,0 +1,23 @@
+{
+  "name": "wui-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corncandy/wui-api.git"
+  },
+  "keywords": [],
+  "author": "Cloud Mu <muyunsong@gmail.com> (http://corncandy.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corncandy/wui-api/issues"
+  },
+  "homepage": "https://github.com/corncandy/wui-api#readme",
+  "devDependencies": {
+    "faker": "^3.1.0"
+  }
+}
