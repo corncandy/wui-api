@@ -102,6 +102,26 @@ router.post('/sso/getResources', function (req, res, next) {
           parentLevelStructure: '1.2.0',
           resourceDisplayName: '详情页面',
           resourceType: 'menu'
+        }, {
+          linkUrl: '/sample/list-page.html/query',
+          resourceDisplayName: '查询',
+          resourceType: 'button'
+        }, {
+          linkUrl: '/sample/list-page.html/add',
+          resourceDisplayName: '新增',
+          resourceType: 'button'
+        }, {
+          linkUrl: '/sample/list-page.html/edit',
+          resourceDisplayName: '编辑',
+          resourceType: 'button'
+        }, {
+          linkUrl: '/sample/list-page.html/delete',
+          resourceDisplayName: '删除',
+          resourceType: 'button'
+        }, {
+          linkUrl: '/sample/detail-page.html/edit',
+          resourceDisplayName: '确认',
+          resourceType: 'button'
         }],
         roles: [{
           roleName: 'Administrator'
